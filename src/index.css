@@ -14,3 +14,8 @@ body {
   overflow: hidden;
   padding-left: 80px;
 }
+.footer {
+  width: 100%;
+  background-color: lightslategray;
+  color: white;
+}

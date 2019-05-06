@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Post from "./components/Post";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/:post_id" component={Post} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
